@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your First Number"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:inputType="numberDecimal"
+        android:id="@+id/num1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Second Number"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:inputType="numberDecimal"
+        android:id="@+id/num2"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#05210f"
+        android:text="add"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/add"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#fc2ee6ca"
+        android:text="substract"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/sub"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#19226b"
+        android:text="multiply"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/mult"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#df0707"
+        android:text="divide"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/div"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/display"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="50sp"/>
+
+</LinearLayout>
